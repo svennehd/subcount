@@ -20,8 +20,8 @@ function App() {
 
   useInterval(() => {
     fetchData();
-  }, 5000);
-  
+  }, 1000);
+
   return (
     <div className="App">
       <header className="App-header">
